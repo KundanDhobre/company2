@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        li{
+            background-color: orange;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 200px;
+            border: 2px solid red;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+            margin-top: 20px;
+        }
+        ul{
+            list-style: none;
+
+        }
+        iframe{
+            width: 50%;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        Amazon Shopping
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="home2.html" target="frameBody" border='2'> Home </a></li>
+                <li><a href="electronics2.html" target="frameBody">Electronics</a></li>
+                <li><a href="footwear.html" target="frameBody">Footwear</a></li>
+                <li><a href="fashion.html" target="frameBody">Fashion</a></li>
+                <li><a href="https://www.youtube.com/embed/Zxx1emqbFZI&quot; target="frameBody">Subscribe to Prime</a></li>
+            </ul>
+            </ul>
+        </nav>
+        <main>
+            <iframe src="home2.html" name="frameBody"></iframe>
+            
+        </main>
+    </div>
+    
+</body>
+</html>
